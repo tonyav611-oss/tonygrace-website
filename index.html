@@ -2,64 +2,100 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Tony Grace Website</title>
+  <title>Tony Grace Ministry</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
-      font-family: Arial, sans-serif;
       margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
       background: #f4f4f4;
       color: #333;
       text-align: center;
     }
     header {
-      background: #222;
-      color: white;
-      padding: 30px 15px;
+      background: #111;
+      color: #fff;
+      padding: 60px 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      margin-top: 10px;
+      font-size: 1.1em;
+      opacity: 0.9;
     }
     section {
-      padding: 20px;
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
     }
-    footer {
-      background: #222;
-      color: white;
-      padding: 15px;
-      margin-top: 20px;
+    h2 {
+      margin-bottom: 15px;
+      color: #222;
+    }
+    .card {
+      background: #fff;
+      padding: 25px;
+      margin: 20px 0;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
     }
     .btn {
       display: inline-block;
-      margin-top: 15px;
-      padding: 10px 20px;
+      margin: 10px;
+      padding: 12px 25px;
       background: #007bff;
-      color: white;
+      color: #fff;
       text-decoration: none;
       border-radius: 5px;
+      font-weight: bold;
+    }
+    .btn.secondary {
+      background: #28a745;
+    }
+    footer {
+      background: #111;
+      color: #fff;
+      padding: 20px;
+      font-size: 0.9em;
     }
   </style>
 </head>
 <body>
 
 <header>
-  <h1>Welcome to Tony Grace</h1>
-  <p>Artist • Builder • Creative Mind</p>
+  <h1>Tony Grace Ministry</h1>
+  <p>Music • Word • Outreach</p>
 </header>
 
 <section>
-  <h2>About Me</h2>
-  <p>
-    I am an artist and mason creating portrait paintings, house designs,
-    and meaningful creative works.
-  </p>
-</section>
+  <div class="card">
+    <h2>About the Ministry</h2>
+    <p>
+      Tony Grace Ministry is dedicated to sharing the gospel through music,
+      teaching, and outreach. The ministry focuses on faith, hope, and
+      transformation through Christ.
+    </p>
+  </div>
 
-<section>
-  <h2>My Work</h2>
-  <p>Portrait paintings • House paintings • Construction works</p>
-  <a class="btn" href="#">Contact Me</a>
+  <div class="card">
+    <h2>Ministry Services</h2>
+    <p>
+      Worship & Ministration • Church Programs • Outreach Events • Personal Ministry
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Support & Bookings</h2>
+    <a class="btn" href="#">Make a Donation</a>
+    <a class="btn secondary" href="#">Book the Ministry</a>
+  </div>
 </section>
 
 <footer>
-  <p>© 2026 Tony Grace. All rights reserved.</p>
+  © 2026 Tony Grace Ministry. All rights reserved.
 </footer>
 
 </body>
